@@ -1,10 +1,8 @@
-package FirstSem;
-
 public class ForLoop3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		for(int x = 0; x < 5; x++) {
+			System.out.print(x + 1);//bonakidddddddddddd why 1234 lang sagot mooooooooo
+		}
 	}
-
 }
