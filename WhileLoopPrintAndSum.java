@@ -1,6 +1,4 @@
-package FirstSem;
-
-public class Practice4 {
+public class WhileLoopPrintAndSum {
 
 	public static void main(String[] args) {
 		int x = 1, sum = 0; //print number and sum them
