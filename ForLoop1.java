@@ -1,14 +1,9 @@
-package FirstSem;
-
 public class ForLoop1 {
 
 	public static void main(String[] args) {
-		//for printing odd/even numbers for for loop
-				int odd;
-				for(odd = 1; odd <= 10; odd += 2) {
-					System.out.println(odd);
-				}
-				
-			}
-
-		}
+		//printing odd numbers for for loop
+		for(int num = 1; num <= 10; num += 2) {//initialize 0 or 2 for printing even num
+			System.out.println(num);
+		}		
+	}
+}
