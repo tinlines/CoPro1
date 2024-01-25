@@ -1,8 +1,7 @@
-package FirstSem;
-
 public class String1 {
 
 	public static void main(String[] args) {
+		//counting how many character in a String/sentence
 		String sentence = "The quick brown fox jumps over the lazy dog.";
 		int numLetter = 0;
 		char o;
