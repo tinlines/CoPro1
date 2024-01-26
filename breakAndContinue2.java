@@ -1,4 +1,3 @@
-package FirstSem;
 import java.util.Scanner;
 public class breakAndContinue2 {
 
@@ -18,10 +17,7 @@ public class breakAndContinue2 {
 				continue;
 			}
 			sum = sum + num;
-			System.out.println("The sum of entered number is: " + sum);
-			
+			System.out.println("The sum of entered number is: " + sum);			
 		}
-
 	}
-
 }
