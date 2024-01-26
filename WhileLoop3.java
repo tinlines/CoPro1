@@ -1,4 +1,3 @@
-package FirstSem;
 import java.util.Scanner;
 public class WhileLoop3 {
 
@@ -24,5 +23,5 @@ public class WhileLoop3 {
 		   
 	    System.out.println("Sum = " + sum);
 	    input.close();
-	  }
 	}
+}
