@@ -1,5 +1,3 @@
-package FirstSem;
-
 public class WhileLoop4 {
 
 	public static void main(String[] args) {
@@ -10,5 +8,5 @@ public class WhileLoop4 {
 	      System.out.println(i);
 	      i++;
 	    } while(i <= n);
-	  }
 	}
+}
