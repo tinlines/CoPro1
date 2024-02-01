@@ -1,16 +1,18 @@
-package Condi;
 import java.util.Scanner;
 public class CondiPrac4 {
-
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int month, date, year;
+		
 		System.out.print("Month : ");
 		month = s.nextInt();
+		
 		System.out.print("Date  : ");
 		date = s.nextInt();
+		
 		System.out.print("Year  : ");
 		year = s.nextInt();
+		
 		switch(month) {
 		case 1:
 			System.out.println("January " + date + "," + year);
@@ -50,9 +52,6 @@ public class CondiPrac4 {
 			break;
 		default:
 			System.out.println("Invalid Month");
-		}
-				
-		}
+		}			
 	}
-
 }	
