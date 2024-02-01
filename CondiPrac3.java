@@ -1,9 +1,7 @@
-package Condi;
-
 public class CondiPrac3 {
-
 	public static void main(String[] args) {
 		char grade = 'A';
+		
 		switch(grade) {
 		case 'A':
 			System.out.println("Oustanding");
@@ -17,7 +15,5 @@ public class CondiPrac3 {
 		default:
 			System.out.println("Failed");
 		}
-
 	}
-
 }
