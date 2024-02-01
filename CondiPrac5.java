@@ -1,9 +1,8 @@
-package Condi;
 import java.util.Scanner;
 public class CondiPrac5 {
-
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
+		
 		System.out.print("Month : ");
 		int month = s.nextInt();
 		
@@ -14,6 +13,7 @@ public class CondiPrac5 {
 		int year = s.nextInt();
 		
 		String monthWord = "";
+		
 		switch (month){
 		    case 1:
 		        monthWord = "January";
@@ -60,5 +60,5 @@ public class CondiPrac5 {
 			else
 				System.out.println(monthWord + " " + date + "," + year);
 		}
-    }
+	}
 }
