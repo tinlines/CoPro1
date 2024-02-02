@@ -1,4 +1,3 @@
-package Condi;
 import java.util.Scanner;
 public class CondiPrac7 {
 
