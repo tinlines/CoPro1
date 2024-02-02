@@ -1,9 +1,10 @@
-package Condi;
-
+import java.util.Scanner;
 public class CondiPrac9 {
-
 	public static void main(String[] args) {
-		int temperature = 111;
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("Enter temperature: ');
+		int temperature = s.nextInt();
 		
 		if (temperature >= 50) {
 			if (temperature >= 110) {
@@ -14,7 +15,5 @@ public class CondiPrac9 {
 		}else {
 			System.out.println("cold");
 		}
-
 	}
-
 }
