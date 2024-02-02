@@ -1,4 +1,3 @@
-package Condi;
 import java.util.Scanner;
 public class ezzzzz {
 	public static void main(String[] args) {
