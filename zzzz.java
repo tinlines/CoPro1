@@ -1,9 +1,5 @@
-package Condi;
-
 import java.util.Scanner;
-
 public class zzzz {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String name, time;
@@ -42,5 +38,4 @@ public class zzzz {
 			System.out.println("Invalid Status.");
 		}
 	}
-
 }
