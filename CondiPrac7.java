@@ -1,6 +1,5 @@
-package Condi;
 import java.util.Scanner;
-public class CondiPrac8 {
+public class CondiPrac7 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
